@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const targetDate = new Date("2026-12-31T23:59:59").getTime();
+const targetDate = new Date("2026-07-23T13:00:00+01:00").getTime();
 
 function getTimeLeft() {
   const now = new Date().getTime();
@@ -38,8 +38,7 @@ function App() {
   return (
     <main className="page">
       <section className="card">
-        <p className="label">Countdown</p>
-        <h1>Time Until The Big Day</h1>
+        <h1>Until We See Each Other Again ❤️</h1>
 
         <div className="timer">
           <div className="box">
